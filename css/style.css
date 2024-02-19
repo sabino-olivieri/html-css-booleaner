@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* header */
 header{
     background-image: url(../img/pattern.png);
     background-color: #4EA0FF;
@@ -16,9 +16,17 @@ header{
     width: 20%;
     margin-left: 10px;
 }
+/* /header */
+
+/* margine inferiore */
+.bottom{
+    margin-bottom: 10px;
+}
+/* /margine inferiore */
 
 main{
     margin-left: 10px;
+    margin-right: 10px;
 }
 
 /* section titolo e immagini */
@@ -35,11 +43,6 @@ main{
     font-size: 10px;
 }
 
-.image{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 .desc-photo{
     /* font-weight: bold; */
     font-size: 10px;
@@ -52,10 +55,29 @@ main{
 {
     background-color: yellow;
 }
-p{
-    margin-bottom: 10px;
-}
+
 .list{
     margin-left: 20px;
+    margin-bottom: 20px;
 }
-/* /div dext */
+/* /div text */
+
+.column{
+    width: 50%;
+}
+
+/* tabella */
+table{
+    border-collapse: collapse;
+}
+
+thead{
+ background-color: #20A9E5;
+ color: white;
+}
+
+tbody>tr:nth-child(odd){
+    background-color: #B1E5F2;
+
+}
+/* /tabella */
