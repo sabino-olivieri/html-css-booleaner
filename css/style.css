@@ -1,8 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header{
     background-image: url(../img/pattern.png);
     background-color: #4EA0FF;
+    background-size: 30%;
+    margin-bottom: 10px;
+    height: 120px;
 }
 
 .logo{
     width: 20%;
+    margin-left: 10px;
 }
+
+main{
+    margin-left: 10px;
+}
+
+/* section titolo e immagini */
+.credits{
+    color: #808080;
+}
+
+.author{
+    color: #20A9E5;
+}
+
+.date{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.desc-photo{
+    font-weight: bold;
+    color: black;
+    font-size: 10px;
+}
+
+/* /section titolo e immagini */
