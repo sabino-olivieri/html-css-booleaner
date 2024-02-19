@@ -22,6 +22,7 @@ main{
 }
 
 /* section titolo e immagini */
+
 .credits{
     color: #808080;
 }
@@ -32,12 +33,29 @@ main{
 
 .date{
     font-size: 10px;
+}
+
+.image{
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .desc-photo{
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 10px;
 }
 
 /* /section titolo e immagini */
+
+/* div text */
+.highlighted
+{
+    background-color: yellow;
+}
+p{
+    margin-bottom: 10px;
+}
+.list{
+    margin-left: 20px;
+}
+/* /div dext */
